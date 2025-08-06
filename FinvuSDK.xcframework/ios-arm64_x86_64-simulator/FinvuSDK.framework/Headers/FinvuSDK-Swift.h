@@ -641,7 +641,6 @@ SWIFT_CLASS_NAMED("FinvuLoginResponse")
 @class FinvuTypeIdentifierInfo;
 @class FinvuLinkedAccountDetailsInfo;
 @class FinvuProcessAccountConsentResponse;
-@class FinvuUserConsentInfoDetails;
 
 SWIFT_CLASS("_TtC8FinvuSDK12FinvuManager")
 @interface FinvuManager : NSObject
@@ -653,6 +652,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FinvuManager * _Nonnul
 - (void)setCompletionDispatchQueueWithQueue:(dispatch_queue_t _Nonnull)queue;
 - (void)initializeWithConfig:(id <FinvuConfig> _Nonnull)config;
 - (void)connectWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)connect;
 - (void)disconnect;
 - (BOOL)isConnected SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)hasSession SWIFT_WARN_UNUSED_RESULT;
@@ -668,9 +668,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FinvuManager * _Nonnul
 - (void)getConsentRequestDetailsWithConsentHandleId:(NSString * _Nonnull)consentHandleId completion:(void (^ _Nonnull)(FinvuConsentRequestDetailResponse * _Nullable, NSError * _Nullable))completion;
 - (void)approveAccountConsentRequestWithConsentDetail:(FinvuConsentRequestDetailInfo * _Nonnull)consentDetail linkedAccounts:(NSArray<FinvuLinkedAccountDetailsInfo *> * _Nonnull)linkedAccounts completion:(void (^ _Nonnull)(FinvuProcessAccountConsentResponse * _Nullable, NSError * _Nullable))completion;
 - (void)denyAccountConsentRequestWithConsentDetail:(FinvuConsentRequestDetailInfo * _Nonnull)consentDetail completion:(void (^ _Nonnull)(FinvuProcessAccountConsentResponse * _Nullable, NSError * _Nullable))completion;
-- (void)revokeConsentWithConsent:(FinvuUserConsentInfoDetails * _Nonnull)consent accountAggregator:(FinvuAccountAggregator * _Nullable)accountAggregator fipDetails:(FinvuFIPReference * _Nullable)fipDetails completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)revokeConsentWithConsentId:(NSString * _Nonnull)consentId accountAggregator:(FinvuAccountAggregator * _Nullable)accountAggregator fipDetails:(FinvuFIPReference * _Nullable)fipDetails completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)getConsentHandleStatusWithHandleId:(NSString * _Nonnull)handleId completion:(void (^ _Nonnull)(FinvuConsentHandleStatusResponse * _Nullable, NSError * _Nullable))completion;
-- (void)fipsAllFIPOptionsWithCompletion:(void (^ _Nonnull)(FinvuFIPSearchResponse * _Nullable, NSError * _Nullable))completion;
+- (void)fipsAllFIPOptionsWithOnlyEnabled:(BOOL)onlyEnabled completion:(void (^ _Nonnull)(FinvuFIPSearchResponse * _Nullable, NSError * _Nullable))completion;
 - (void)fetchFIPDetailsWithFipId:(NSString * _Nonnull)fipId completion:(void (^ _Nonnull)(FinvuFIPDetails * _Nullable, NSError * _Nullable))completion;
 - (void)getEntityInfoWithEntityId:(NSString * _Nonnull)entityId entityType:(NSString * _Nonnull)entityType completion:(void (^ _Nonnull)(FinvuEntityInfo * _Nullable, NSError * _Nullable))completion;
 - (void)logoutWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
@@ -1524,7 +1524,6 @@ SWIFT_CLASS_NAMED("FinvuLoginResponse")
 @class FinvuTypeIdentifierInfo;
 @class FinvuLinkedAccountDetailsInfo;
 @class FinvuProcessAccountConsentResponse;
-@class FinvuUserConsentInfoDetails;
 
 SWIFT_CLASS("_TtC8FinvuSDK12FinvuManager")
 @interface FinvuManager : NSObject
@@ -1536,6 +1535,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FinvuManager * _Nonnul
 - (void)setCompletionDispatchQueueWithQueue:(dispatch_queue_t _Nonnull)queue;
 - (void)initializeWithConfig:(id <FinvuConfig> _Nonnull)config;
 - (void)connectWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)connect;
 - (void)disconnect;
 - (BOOL)isConnected SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)hasSession SWIFT_WARN_UNUSED_RESULT;
@@ -1551,9 +1551,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FinvuManager * _Nonnul
 - (void)getConsentRequestDetailsWithConsentHandleId:(NSString * _Nonnull)consentHandleId completion:(void (^ _Nonnull)(FinvuConsentRequestDetailResponse * _Nullable, NSError * _Nullable))completion;
 - (void)approveAccountConsentRequestWithConsentDetail:(FinvuConsentRequestDetailInfo * _Nonnull)consentDetail linkedAccounts:(NSArray<FinvuLinkedAccountDetailsInfo *> * _Nonnull)linkedAccounts completion:(void (^ _Nonnull)(FinvuProcessAccountConsentResponse * _Nullable, NSError * _Nullable))completion;
 - (void)denyAccountConsentRequestWithConsentDetail:(FinvuConsentRequestDetailInfo * _Nonnull)consentDetail completion:(void (^ _Nonnull)(FinvuProcessAccountConsentResponse * _Nullable, NSError * _Nullable))completion;
-- (void)revokeConsentWithConsent:(FinvuUserConsentInfoDetails * _Nonnull)consent accountAggregator:(FinvuAccountAggregator * _Nullable)accountAggregator fipDetails:(FinvuFIPReference * _Nullable)fipDetails completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)revokeConsentWithConsentId:(NSString * _Nonnull)consentId accountAggregator:(FinvuAccountAggregator * _Nullable)accountAggregator fipDetails:(FinvuFIPReference * _Nullable)fipDetails completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)getConsentHandleStatusWithHandleId:(NSString * _Nonnull)handleId completion:(void (^ _Nonnull)(FinvuConsentHandleStatusResponse * _Nullable, NSError * _Nullable))completion;
-- (void)fipsAllFIPOptionsWithCompletion:(void (^ _Nonnull)(FinvuFIPSearchResponse * _Nullable, NSError * _Nullable))completion;
+- (void)fipsAllFIPOptionsWithOnlyEnabled:(BOOL)onlyEnabled completion:(void (^ _Nonnull)(FinvuFIPSearchResponse * _Nullable, NSError * _Nullable))completion;
 - (void)fetchFIPDetailsWithFipId:(NSString * _Nonnull)fipId completion:(void (^ _Nonnull)(FinvuFIPDetails * _Nullable, NSError * _Nullable))completion;
 - (void)getEntityInfoWithEntityId:(NSString * _Nonnull)entityId entityType:(NSString * _Nonnull)entityType completion:(void (^ _Nonnull)(FinvuEntityInfo * _Nullable, NSError * _Nullable))completion;
 - (void)logoutWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;

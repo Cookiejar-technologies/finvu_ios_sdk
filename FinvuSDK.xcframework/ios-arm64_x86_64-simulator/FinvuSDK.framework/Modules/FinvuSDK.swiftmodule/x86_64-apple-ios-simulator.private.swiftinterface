@@ -437,6 +437,7 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public func setCompletionDispatchQueue(queue: Dispatch.DispatchQueue)
   @objc final public func initializeWith(config: any FinvuSDK.FinvuConfig)
   @objc final public func connect(completion: @escaping FinvuSDK.CompletionHandler)
+  @objc final public func connect()
   @objc final public func disconnect()
   @objc final public func isConnected() -> Swift.Bool
   @objc final public func hasSession() -> Swift.Bool
@@ -452,9 +453,9 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public func getConsentRequestDetails(consentHandleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ConsentRequestDetailResponse>)
   @objc final public func approveAccountConsentRequest(consentDetail: FinvuSDK.ConsentRequestDetailInfo, linkedAccounts: [FinvuSDK.LinkedAccountDetailsInfo], completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ProcessAccountConsentResponse>)
   @objc final public func denyAccountConsentRequest(consentDetail: FinvuSDK.ConsentRequestDetailInfo, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ProcessAccountConsentResponse>)
-  @objc final public func revokeConsent(consent: FinvuSDK.UserConsentInfoDetails, accountAggregator: FinvuSDK.AccountAggregator?, fipDetails: FinvuSDK.FIPReference?, completion: @escaping FinvuSDK.CompletionHandler)
+  @objc final public func revokeConsent(consentId: Swift.String, accountAggregator: FinvuSDK.AccountAggregator?, fipDetails: FinvuSDK.FIPReference?, completion: @escaping FinvuSDK.CompletionHandler)
   @objc final public func getConsentHandleStatus(handleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ConsentHandleStatusResponse>)
-  @objc final public func fipsAllFIPOptions(completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPSearchResponse>)
+  @objc final public func fipsAllFIPOptions(onlyEnabled: Swift.Bool = false, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPSearchResponse>)
   @objc final public func fetchFIPDetails(fipId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPDetails>)
   @objc final public func getEntityInfo(entityId: Swift.String, entityType: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.EntityInfo>)
   @objc final public func logout(completion: @escaping FinvuSDK.CompletionHandler)
