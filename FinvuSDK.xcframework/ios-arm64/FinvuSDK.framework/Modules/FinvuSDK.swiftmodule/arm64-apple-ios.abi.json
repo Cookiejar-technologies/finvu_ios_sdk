@@ -8355,9 +8355,75 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "linkingOtpLength",
+            "printedName": "linkingOtpLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FinvuSDK@objc(cs)FinvuFIPDetails(py)linkingOtpLength",
+            "mangledName": "$s8FinvuSDK10FIPDetailsC16linkingOtpLengthSo8NSNumberCSgvp",
+            "moduleName": "FinvuSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FinvuSDK@objc(cs)FinvuFIPDetails(im)linkingOtpLength",
+                "mangledName": "$s8FinvuSDK10FIPDetailsC16linkingOtpLengthSo8NSNumberCSgvg",
+                "moduleName": "FinvuSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(fipId:typeIdenifiers:)",
+            "printedName": "init(fipId:typeIdenifiers:linkingOtpLength:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8384,11 +8450,25 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@FinvuSDK@objc(cs)FinvuFIPDetails(im)initWithFipId:typeIdenifiers:",
-            "mangledName": "$s8FinvuSDK10FIPDetailsC5fipId14typeIdenifiersACSS_SayAA19FIPFiTypeIdentifierCGtcfc",
+            "usr": "c:@M@FinvuSDK@objc(cs)FinvuFIPDetails(im)initWithFipId:typeIdenifiers:linkingOtpLength:",
+            "mangledName": "$s8FinvuSDK10FIPDetailsC5fipId14typeIdenifiers16linkingOtpLengthACSS_SayAA19FIPFiTypeIdentifierCGSo8NSNumberCSgtcfc",
             "moduleName": "FinvuSDK",
             "declAttributes": [
               "AccessControl",
@@ -27708,322 +27788,322 @@
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1673,
+      "offset": 1705,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1763,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1795,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1834,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1838,
+      "offset": 1870,
       "length": 9,
       "value": "\"FITypes\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2688,
       "length": 13,
       "value": "\"Identifiers\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3055,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3081,
+      "offset": 3113,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3155,
       "length": 20,
       "value": "\"DiscoveredAccounts\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3397,
+      "offset": 3429,
       "length": 9,
       "value": "\"accType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3445,
+      "offset": 3477,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3495,
+      "offset": 3527,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3535,
+      "offset": 3567,
       "length": 8,
       "value": "\"FIType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3868,
+      "offset": 3900,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3926,
+      "offset": 3958,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3962,
+      "offset": 3994,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 4009,
+      "offset": 4041,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 4555,
+      "offset": 4587,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5020,
+      "offset": 5052,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5119,
+      "offset": 5151,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5160,
+      "offset": 5192,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5211,
+      "offset": 5243,
       "length": 11,
       "value": "\"RefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5517,
+      "offset": 5549,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5575,
+      "offset": 5607,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5614,
+      "offset": 5646,
       "length": 26,
       "value": "\"AccountsLinkingRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6293,
+      "offset": 6325,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6392,
+      "offset": 6424,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6436,
+      "offset": 6468,
       "length": 16,
       "value": "\"AccLinkDetails\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6738,
+      "offset": 6770,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6792,
+      "offset": 6824,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7172,
+      "offset": 7204,
       "length": 16,
       "value": "\"LinkedAccounts\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7726,
+      "offset": 7758,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7782,
+      "offset": 7814,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7832,
+      "offset": 7864,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7897,
+      "offset": 7929,
       "length": 8,
       "value": "\"FIType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7933,
+      "offset": 7965,
       "length": 9,
       "value": "\"accType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8018,
+      "offset": 8050,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8363,
+      "offset": 8395,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8421,
+      "offset": 8453,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8467,
+      "offset": 8499,
       "length": 9,
       "value": "\"Account\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8505,
+      "offset": 8537,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 9431,
+      "offset": 9463,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 9485,
+      "offset": 9517,
       "length": 18,
       "value": "\"accountRefNumber\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 10007,
+      "offset": 10039,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 10178,
+      "offset": 10210,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 10480,
+      "offset": 10512,
       "length": 11,
       "value": "\"mobileNum\""
     },
