@@ -125,7 +125,7 @@ In order to initiate discovery flow, you will need to get FIP details first. Get
 Once FIPDetails are available, discovery can be made with the following step - 
 
 ```swift
-    FinvuManager.shared.discoverAccounts(fipDetails: fipDetails, 
+    FinvuManager.shared.discoverAccounts(fipId: fipId, 
                                             fiTypes: fiTypes, 
                                         identifiers: identifiers) { response, error in
     
