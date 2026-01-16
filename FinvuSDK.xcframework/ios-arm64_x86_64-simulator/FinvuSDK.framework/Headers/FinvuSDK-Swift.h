@@ -539,12 +539,14 @@ SWIFT_CLASS_NAMED("FIDecryptedDataInfo")
 @end
 
 @class FinvuFIPFiTypeIdentifier;
+@class NSNumber;
 
 SWIFT_CLASS_NAMED("FIPDetails")
 @interface FinvuFIPDetails : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull fipId;
 @property (nonatomic, readonly, copy) NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull typeIdentifiers;
-- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId typeIdenifiers:(NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull)typeIdenifiers OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, strong) NSNumber * _Nullable linkingOtpLength;
+- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId typeIdenifiers:(NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull)typeIdenifiers linkingOtpLength:(NSNumber * _Nullable)linkingOtpLength OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1725,12 +1727,14 @@ SWIFT_CLASS_NAMED("FIDecryptedDataInfo")
 @end
 
 @class FinvuFIPFiTypeIdentifier;
+@class NSNumber;
 
 SWIFT_CLASS_NAMED("FIPDetails")
 @interface FinvuFIPDetails : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull fipId;
 @property (nonatomic, readonly, copy) NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull typeIdentifiers;
-- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId typeIdenifiers:(NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull)typeIdenifiers OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, strong) NSNumber * _Nullable linkingOtpLength;
+- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId typeIdenifiers:(NSArray<FinvuFIPFiTypeIdentifier *> * _Nonnull)typeIdenifiers linkingOtpLength:(NSNumber * _Nullable)linkingOtpLength OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

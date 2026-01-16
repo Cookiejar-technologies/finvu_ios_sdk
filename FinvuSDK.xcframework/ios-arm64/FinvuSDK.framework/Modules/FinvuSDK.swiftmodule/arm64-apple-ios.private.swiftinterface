@@ -233,7 +233,8 @@ public enum FinvuErrorCode : Swift.Int {
 @objc(FinvuFIPDetails) @objcMembers final public class FIPDetails : ObjectiveC.NSObject {
   @objc final public let fipId: Swift.String
   @objc final public let typeIdentifiers: [FinvuSDK.FIPFiTypeIdentifier]
-  @objc public init(fipId: Swift.String, typeIdenifiers: [FinvuSDK.FIPFiTypeIdentifier])
+  @objc final public let linkingOtpLength: Foundation.NSNumber?
+  @objc public init(fipId: Swift.String, typeIdenifiers: [FinvuSDK.FIPFiTypeIdentifier], linkingOtpLength: Foundation.NSNumber?)
   @objc deinit
 }
 @objc(FinvuFIPFiTypeIdentifier) @objcMembers final public class FIPFiTypeIdentifier : ObjectiveC.NSObject {
