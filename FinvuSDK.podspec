@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "FinvuSDK"
-    s.version      = "1.1.1"
+    s.version      = "1.1.2"
     s.summary      = "FinvuSDK Client library"
     s.description  = "Client Library to access Finvu SDK"
     s.homepage     = "github.com/Cookiejar-technologies/finvu_ios_sdk"
