@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FinvuSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinvuSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 @_exported import FinvuSDK
 import Foundation
 import OSLog
@@ -19,13 +19,17 @@ import os
   @objc final public let statusCode: Swift.String
   @objc final public let authType: Swift.String?
   @objc final public let token: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(status: Swift.String, statusCode: Swift.String, authType: Swift.String?, token: Swift.String?)
+  #endif
   @objc deinit
 }
 public enum AccountConsentFetchType : Swift.String {
   case oneTime
   case periodic
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -35,7 +39,9 @@ public enum ConsentLifeUnit : Swift.String {
   case month
   case year
   case day
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -46,7 +52,9 @@ public enum ConsentMode : Swift.String {
   case view
   case store
   case stream
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -56,7 +64,9 @@ public enum ConsentType : Swift.String, Swift.CaseIterable {
   case transactions
   case profile
   case summary
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [FinvuSDK.ConsentType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [FinvuSDK.ConsentType] {
@@ -86,7 +96,9 @@ public enum ConsentFiType : Swift.String, Swift.CaseIterable {
   case reit
   case sip
   case termDeposit
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [FinvuSDK.ConsentFiType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [FinvuSDK.ConsentFiType] {
@@ -97,13 +109,19 @@ public enum ConsentFiType : Swift.String, Swift.CaseIterable {
   }
 }
 extension Foundation.NSError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func finvuError(code: Swift.String?, message: Swift.String?) -> Foundation.NSError
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorCode: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorMessage: Swift.String? {
     get
   }
+  #endif
 }
 @objc public class EventDefinition : ObjectiveC.NSObject {
   final public let category: Swift.String
@@ -112,7 +130,9 @@ extension Foundation.NSError {
   public var fipId: Swift.String?
   public var fips: [Swift.String]
   public var fiTypes: [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(category: Swift.String, stage: Swift.String? = nil, fipId: Swift.String? = nil, fips: [Swift.String] = [], fiTypes: [Swift.String] = [])
+  #endif
   @objc public func reset()
   @objc deinit
 }
@@ -129,7 +149,9 @@ public enum FinvuErrorCode : Swift.Int {
   case recordNotFound
   case logout
   case genericError
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -154,12 +176,16 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let reference: Swift.String
   @objc final public let snaToken: Swift.String?
   @objc final public let authType: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(reference: Swift.String, snaToken: Swift.String?, authType: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FinvuLoginResponse) @objcMembers final public class FinvuLoginResponse : ObjectiveC.NSObject {
   final public let deviceBindingValid: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(deviceBindingValid: Swift.Bool?)
+  #endif
   @objc deinit
 }
 @objc(FinvuDeviceBinding) @objcMembers final public class FinvuDeviceBinding : ObjectiveC.NSObject {
@@ -187,7 +213,9 @@ public enum FinvuErrorCode : Swift.Int {
 @objc(FinvuConsentHistory) @objcMembers final public class ConsentHistory : ObjectiveC.NSObject {
   @objc final public let consentId: Swift.String
   @objc final public let consentTimestamp: Foundation.Date?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(consentId: Swift.String, consentTimestamp: Foundation.Date?)
+  #endif
   @objc deinit
 }
 @objc(FinvuAccountDataRequest) @objcMembers final public class AccountDataRequestResponse : ObjectiveC.NSObject {
@@ -195,7 +223,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let timestamp: Foundation.Date?
   @objc final public let consentId: Swift.String?
   @objc final public let sessionId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(transactionId: Swift.String, timestamp: Foundation.Date?, consentId: Swift.String, sessionId: Swift.String)
+  #endif
   @objc deinit
 }
 @objc(FinvuAccountDataFetchResponse) @objcMembers final public class AccountDataFetchResponse : ObjectiveC.NSObject {
@@ -211,7 +241,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let fiType: Swift.String?
   @objc final public let accountType: Swift.String?
   @objc final public let decryptedData: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(linkReferenceNumber: Swift.String, accountReferenceNumber: Swift.String?, maskedAccountNumber: Swift.String, fiType: Swift.String?, accountType: Swift.String?, decryptedData: Swift.String)
+  #endif
   @objc deinit
 }
 @objc(FinvuFIPSearchResponse) @objcMembers final public class FIPSearchResponse : ObjectiveC.NSObject {
@@ -227,14 +259,18 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let productDesc: Swift.String?
   @objc final public let productIconUri: Swift.String?
   @objc final public let enabled: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(fipId: Swift.String, productName: Swift.String?, fipFitypes: [Swift.String], fipFsr: Swift.String?, productDesc: Swift.String?, productIconUri: Swift.String?, enabled: Swift.Bool)
+  #endif
   @objc deinit
 }
 @objc(FinvuFIPDetails) @objcMembers final public class FIPDetails : ObjectiveC.NSObject {
   @objc final public let fipId: Swift.String
   @objc final public let typeIdentifiers: [FinvuSDK.FIPFiTypeIdentifier]
   @objc final public let linkingOtpLength: Foundation.NSNumber?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(fipId: Swift.String, typeIdenifiers: [FinvuSDK.FIPFiTypeIdentifier], linkingOtpLength: Foundation.NSNumber?)
+  #endif
   @objc deinit
 }
 @objc(FinvuFIPFiTypeIdentifier) @objcMembers final public class FIPFiTypeIdentifier : ObjectiveC.NSObject {
@@ -295,7 +331,9 @@ public enum FinvuErrorCode : Swift.Int {
 }
 @objc(FinvuLinkedAccountsReponse) @objcMembers final public class LinkedAccountsResponse : ObjectiveC.NSObject {
   @objc final public let linkedAccounts: [FinvuSDK.LinkedAccountDetailsInfo]?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(linkedAccounts: [FinvuSDK.LinkedAccountDetailsInfo]?)
+  #endif
   @objc deinit
 }
 @objc(FinvuLinkedAccountDetailsInfo) @objcMembers final public class LinkedAccountDetailsInfo : ObjectiveC.NSObject, Swift.Codable {
@@ -310,14 +348,18 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let accountType: Swift.String
   @objc final public let linkedAccountUpdateTimestamp: Foundation.Date?
   @objc final public let authenticatorType: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(userId: Swift.String, fipId: Swift.String, fipName: Swift.String, maskedAccountNumber: Swift.String, accountReferenceNumber: Swift.String, linkReferenceNumber: Swift.String, consentIdList: [Swift.String]?, fiType: Swift.String, accountType: Swift.String, linkedAccountUpdateTimestamp: Foundation.Date?, authenticatorType: Swift.String)
+  #endif
   @objc deinit
   final public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 @objc(FinvuFetchOfflineMessageResponse) @objcMembers final public class FetchOfflineMessageResponse : ObjectiveC.NSObject {
   @objc final public let messages: [FinvuSDK.OfflineMessageInfo]?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(messages: [FinvuSDK.OfflineMessageInfo]?)
+  #endif
   @objc deinit
 }
 @objc(FinvuOfflineMessageInfo) @objcMembers final public class OfflineMessageInfo : ObjectiveC.NSObject {
@@ -331,7 +373,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let messageType: Swift.String
   @objc final public let requestConsentId: Swift.String
   @objc final public let requestSessionId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(userId: Swift.String, messageId: Swift.String, messageAcked: Swift.String, messageOriginator: Swift.String, messageOriginatorName: Swift.String?, messageText: Swift.String, messageTimestamp: Swift.String, messageType: Swift.String, requestConsentId: Swift.String, requestSessionId: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FinvuConsentRequestDetailResponse) @objcMembers final public class ConsentRequestDetailResponse : ObjectiveC.NSObject {
@@ -351,7 +395,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let consentDataFrequency: FinvuSDK.ConsentDataFrequency
   @objc final public let statusLastUpdateTimestamp: Foundation.Date?
   @objc final public let fiTypes: [Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(consentId: Swift.String?, consentHandle: Swift.String, statusLastUpdateTimestamp: Foundation.Date?, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, fiTypes: [Swift.String]?)
+  #endif
   @objc deinit
 }
 @objc(FinvuDateTimeRange) @objcMembers final public class DateTimeRange : ObjectiveC.NSObject {
@@ -396,13 +442,17 @@ public enum FinvuErrorCode : Swift.Int {
 @objc(FinvuProcessAccountConsentResponse) @objcMembers final public class ProcessAccountConsentResponse : ObjectiveC.NSObject {
   @objc final public let consentIntentId: Swift.String?
   @objc final public let consentsInfo: [FinvuSDK.FinvuConsentInfo]?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(consentIntentId: Swift.String?, consentsInfo: [FinvuSDK.FinvuConsentInfo]?)
+  #endif
   @objc deinit
 }
 @objc(FinvuConsentInfo) @objcMembers final public class FinvuConsentInfo : ObjectiveC.NSObject {
   @objc final public let fipId: Swift.String?
   @objc final public let consentId: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(fipId: Swift.String?, consentId: Swift.String)
+  #endif
   @objc deinit
 }
 @objc(FinvuUserConsentResponse) @objcMembers final public class UserConsentResponse : ObjectiveC.NSObject {
@@ -418,7 +468,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let consentIntentUpdateTimestamp: Foundation.Date
   @objc final public let consentPurposeText: Swift.String
   @objc final public let status: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(consentIntentId: Swift.String, consentIntentEntityId: Swift.String?, consentIntentEntityName: Swift.String, consentIdList: [Swift.String], consentIntentUpdateTimestamp: Foundation.Date, consentPurposeText: Swift.String, status: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FinvuUserConsentInfoDetails) @objcMembers final public class UserConsentInfoDetails : ObjectiveC.NSObject {
@@ -429,7 +481,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let consentIntentUpdateTimestamp: Foundation.Date
   @objc final public let consentPurposeText: Swift.String
   @objc final public let status: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(consentId: Swift.String, consentIntentEntityId: Swift.String?, consentIntentEntityName: Swift.String, consentIdList: [Swift.String], consentIntentUpdateTimestamp: Foundation.Date, consentPurposeText: Swift.String, status: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FinvuEntityInfo) @objcMembers final public class EntityInfo : ObjectiveC.NSObject {
@@ -438,7 +492,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let entityIconUri: Swift.String?
   @objc final public let entityLogoUri: Swift.String?
   @objc final public let entityLogoWithNameUri: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(entityId: Swift.String, entityName: Swift.String, entityIconUri: Swift.String?, entityLogoUri: Swift.String?, entityLogoWithNameUri: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FinvuUserConsentDetails) @objcMembers final public class UserConsentDetails : ObjectiveC.NSObject {
@@ -457,7 +513,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let accounts: [FinvuSDK.ConsentAccountDetails]
   final public let fiTypes: [Swift.String?]
   @objc final public let accountAggregator: FinvuSDK.AccountAggregator
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(consentHandle: Swift.String?, consentId: Swift.String?, consentStatus: Swift.String, financialInformationProvider: FinvuSDK.FinancialInformationEntityInfo?, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo?, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, accounts: [FinvuSDK.ConsentAccountDetails], fiTypes: [Swift.String?], accountAggregator: FinvuSDK.AccountAggregator, statusLastUpdateTimestamp: Foundation.Date?)
+  #endif
   @objc deinit
 }
 @objc(FinvuConsentAccountDetails) @objcMembers final public class ConsentAccountDetails : ObjectiveC.NSObject {
@@ -467,7 +525,9 @@ public enum FinvuErrorCode : Swift.Int {
   @objc final public let accountReferenceNumber: Swift.String?
   @objc final public let maskedAccountNumber: Swift.String
   @objc final public let linkReferenceNumber: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(fiType: Swift.String, fipId: Swift.String, accountType: Swift.String, accountReferenceNumber: Swift.String?, maskedAccountNumber: Swift.String, linkReferenceNumber: Swift.String)
+  #endif
   @objc deinit
 }
 @objc(FinvuFIPReference) @objcMembers final public class FIPReference : ObjectiveC.NSObject {
@@ -481,8 +541,12 @@ public enum FinvuErrorCode : Swift.Int {
 }
 @objc public protocol FinvuConfig {
   @objc var finvuEndpoint: Foundation.URL { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var certificatePins: [Swift.String]? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var finvuSnaAuthConfig: FinvuSDK.FinvuSnaAuthConfig? { get }
+  #endif
 }
 public struct FinvuErrorMessages {
   public static let snaAuthenticationFailed: Swift.String
@@ -502,9 +566,13 @@ public struct FinvuErrorMessages {
   @objc public var count: Swift.Int {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParam<T>(_ key: Swift.String, as type: T.Type) -> T?
+  #endif
   @objc public func toDictionary() -> [Swift.String : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func toJSONString(prettyPrinted: Swift.Bool = false) -> Swift.String?
+  #endif
   @objc public var notificationPayload: [Swift.AnyHashable : Any] {
     @objc get
   }
@@ -561,7 +629,9 @@ public struct FinvuErrorMessages {
   public var eventName: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [FinvuSDK.FinvuEventType]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [FinvuSDK.FinvuEventType] {
@@ -584,9 +654,12 @@ public struct FinvuErrorMessages {
   @objc final public func connect(completion: @escaping FinvuSDK.CompletionHandler)
   @objc final public func connect()
   @objc final public func disconnect()
+  @objc final public func checkAndReconnectIfNeeded()
   @objc final public func isConnected() -> Swift.Bool
   @objc final public func hasSession() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func loginWith(username: Swift.String?, mobileNumber: Swift.String?, consentHandleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.LoginOtpReference>)
+  #endif
   @objc final public func verifyLoginOtp(otp: Swift.String, otpReference: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.HandleInfo>)
   @objc final public func initiateMobileVerification(mobileNumber: Swift.String, completion: @escaping FinvuSDK.CompletionHandler)
   @objc final public func completeMobileVerification(mobileNumber: Swift.String, otp: Swift.String, completion: @escaping FinvuSDK.CompletionHandler)
@@ -598,7 +671,9 @@ public struct FinvuErrorMessages {
   @objc final public func getConsentRequestDetails(consentHandleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ConsentRequestDetailResponse>)
   @objc final public func approveAccountConsentRequest(consentDetail: FinvuSDK.ConsentRequestDetailInfo, linkedAccounts: [FinvuSDK.LinkedAccountDetailsInfo], completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ProcessAccountConsentResponse>)
   @objc final public func denyAccountConsentRequest(consentDetail: FinvuSDK.ConsentRequestDetailInfo, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ProcessAccountConsentResponse>)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func revokeConsent(consentId: Swift.String, accountAggregator: FinvuSDK.AccountAggregator?, fipDetails: FinvuSDK.FIPReference?, completion: @escaping FinvuSDK.CompletionHandler)
+  #endif
   @objc final public func getConsentHandleStatus(handleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ConsentHandleStatusResponse>)
   @objc final public func fipsAllFIPOptions(onlyEnabled: Swift.Bool = false, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPSearchResponse>)
   @objc final public func fetchFIPDetails(fipId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPDetails>)
@@ -615,7 +690,9 @@ public struct FinvuErrorMessages {
 @objc public enum FinvuEnvironment : Swift.Int {
   case uat = 0
   case production = 1
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -623,16 +700,24 @@ public struct FinvuErrorMessages {
 }
 @objc public protocol FinvuSnaAuthProvider {
   @objc func isAvailable() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func setup(config: FinvuSDK.FinvuSnaAuthConfig?, phone: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func performSna(authMeta: [Swift.String : Any]?, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FinvuSnaAuthSuccessResponse>)
+  #endif
   @objc func cancel()
   @objc func onDestroy()
 }
 @_inheritsConvenienceInitializers @objc public class FinvuSnaAuthProviderNoop : ObjectiveC.NSObject, FinvuSDK.FinvuSnaAuthProvider {
   @objc override dynamic public init()
   @objc public func isAvailable() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setup(config: FinvuSDK.FinvuSnaAuthConfig?, phone: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func performSna(authMeta: [Swift.String : Any]?, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FinvuSnaAuthSuccessResponse>)
+  #endif
   @objc public func cancel()
   @objc public func onDestroy()
   @objc deinit
@@ -640,17 +725,25 @@ public struct FinvuErrorMessages {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FinvuSnaAuthProviderRegistry : ObjectiveC.NSObject {
   @objc public static let shared: FinvuSDK.FinvuSnaAuthProviderRegistry
   @objc public func register(provider: any FinvuSDK.FinvuSnaAuthProvider)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getAvailableProvider() -> (any FinvuSDK.FinvuSnaAuthProvider)?
+  #endif
   @objc public func getAllProviders() -> [any FinvuSDK.FinvuSnaAuthProvider]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func ensureProviderSetup(config: FinvuSDK.FinvuSnaAuthConfig?, phone: Swift.String)
+  #endif
   @objc deinit
 }
 @objc(FinvuSnaResult) @objcMembers final public class FinvuSnaResult : ObjectiveC.NSObject {
   @objc final public let token: Swift.String?
   @objc final public let success: Swift.Bool
   @objc final public let errorMessage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(token: Swift.String?, success: Swift.Bool, errorMessage: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func success(token: Swift.String?) -> FinvuSDK.FinvuSnaResult
+  #endif
   @objc public static func failure(errorMessage: Swift.String) -> FinvuSDK.FinvuSnaResult
   @objc deinit
 }

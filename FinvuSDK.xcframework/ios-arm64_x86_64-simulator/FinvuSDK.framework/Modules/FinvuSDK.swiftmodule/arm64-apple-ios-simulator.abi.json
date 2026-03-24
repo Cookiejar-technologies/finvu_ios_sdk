@@ -24071,6 +24071,29 @@
           },
           {
             "kind": "Function",
+            "name": "checkAndReconnectIfNeeded",
+            "printedName": "checkAndReconnectIfNeeded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDK@objc(cs)FinvuManager(im)checkAndReconnectIfNeeded",
+            "mangledName": "$s8FinvuSDK0A7ManagerC25checkAndReconnectIfNeededyyF",
+            "moduleName": "FinvuSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isConnected",
             "printedName": "isConnected()",
             "children": [
@@ -25666,6 +25689,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "FinvuSDK"
       },
@@ -27767,6 +27797,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -27779,3031 +27816,3108 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 12,
       "value": "\"FipDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 1795,
       "length": 10,
       "value": "\"Customer\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 1870,
       "length": 9,
       "value": "\"FITypes\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 2688,
       "length": 13,
       "value": "\"Identifiers\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3055,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3113,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3155,
       "length": 20,
       "value": "\"DiscoveredAccounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3429,
       "length": 9,
       "value": "\"accType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3477,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3527,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3567,
       "length": 8,
       "value": "\"FIType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3900,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3958,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 3994,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 4041,
       "length": 10,
       "value": "\"Customer\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 4587,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5052,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5151,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5192,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5243,
       "length": 11,
       "value": "\"RefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5549,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5607,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 5646,
       "length": 26,
       "value": "\"AccountsLinkingRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 6325,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 6424,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 6468,
       "length": 16,
       "value": "\"AccLinkDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 6770,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 6824,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7204,
       "length": 16,
       "value": "\"LinkedAccounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7758,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7814,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7864,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7929,
       "length": 8,
       "value": "\"FIType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 7965,
       "length": 9,
       "value": "\"accType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 8050,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 8395,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 8453,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 8499,
       "length": 9,
       "value": "\"Account\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 8537,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 9463,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 9517,
       "length": 18,
       "value": "\"accountRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 10039,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 10210,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
       "offset": 10512,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 14,
       "value": "\"deviceSecret\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 8,
       "value": "\"secret\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 23,
       "value": "\"deviceSimBindingValid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 2279,
       "length": 13,
       "value": "\"oldPassword\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 2320,
       "length": 13,
       "value": "\"newPassword\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 2365,
       "length": 12,
       "value": "\"rePassword\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 2836,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 3395,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 3757,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 4234,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 4552,
       "length": 10,
       "value": "\"mobileno\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 4616,
       "length": 12,
       "value": "\"repassword\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Base.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Base.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Base.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Base.swift",
       "kind": "BooleanLiteral",
       "offset": 843,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1721,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1756,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1879,
       "length": 27,
       "value": "\"statusLastupdateTimestamp\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1940,
       "length": 4,
       "value": "\"AA\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 5,
       "value": "\"FIU\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 1990,
       "length": 6,
       "value": "\"User\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2020,
       "length": 9,
       "value": "\"Purpose\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2191,
       "length": 19,
       "value": "\"DataDateTimeRange\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2235,
       "length": 10,
       "value": "\"DataLife\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2271,
       "length": 11,
       "value": "\"Frequency\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2309,
       "length": 12,
       "value": "\"DataFilter\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2394,
       "length": 15,
       "value": "\"ConsentHandle\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 2901,
       "length": 10,
       "value": "\"Category\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 3245,
       "length": 10,
       "value": "\"operator\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 3627,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 3707,
       "length": 5,
       "value": "\"FIU\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 3739,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 5678,
       "length": 5,
       "value": "\"FIP\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 5708,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 6063,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 6106,
       "length": 9,
       "value": "\"accType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 6154,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 6204,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 6244,
       "length": 8,
       "value": "\"FIType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 8162,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9605,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9640,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9787,
       "length": 27,
       "value": "\"statusLastupdateTimestamp\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9834,
       "length": 5,
       "value": "\"FIP\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9873,
       "length": 4,
       "value": "\"AA\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9897,
       "length": 5,
       "value": "\"FIU\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9923,
       "length": 6,
       "value": "\"User\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9954,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 9991,
       "length": 12,
       "value": "\"ConsentUse\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10030,
       "length": 12,
       "value": "\"DataAccess\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10066,
       "length": 9,
       "value": "\"Purpose\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10101,
       "length": 11,
       "value": "\"Signature\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10274,
       "length": 19,
       "value": "\"DataDateTimeRange\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10318,
       "length": 10,
       "value": "\"DataLife\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10354,
       "length": 11,
       "value": "\"Frequency\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10392,
       "length": 12,
       "value": "\"DataFilter\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10477,
       "length": 15,
       "value": "\"ConsentHandle\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10789,
       "length": 8,
       "value": "\"FIType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10844,
       "length": 9,
       "value": "\"accType\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10892,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10942,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 10995,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12007,
       "length": 9,
       "value": "\"ONETIME\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12037,
       "length": 10,
       "value": "\"PERIODIC\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12107,
       "length": 7,
       "value": "\"MONTH\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12131,
       "length": 6,
       "value": "\"YEAR\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12153,
       "length": 5,
       "value": "\"DAY\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12216,
       "length": 8,
       "value": "\"ACCEPT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12280,
       "length": 7,
       "value": "\"QUERY\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12304,
       "length": 6,
       "value": "\"VIEW\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12328,
       "length": 7,
       "value": "\"STORE\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12354,
       "length": 8,
       "value": "\"STREAM\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12439,
       "length": 14,
       "value": "\"TRANSACTIONS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12473,
       "length": 9,
       "value": "\"PROFILE\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12502,
       "length": 9,
       "value": "\"SUMMARY\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12581,
       "length": 5,
       "value": "\"AIF\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12604,
       "length": 7,
       "value": "\"BONDS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12627,
       "length": 5,
       "value": "\"CIS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12647,
       "length": 4,
       "value": "\"CP\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12674,
       "length": 12,
       "value": "\"DEBENTURES\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12706,
       "length": 9,
       "value": "\"DEPOSIT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12736,
       "length": 10,
       "value": "\"EQUITIES\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12762,
       "length": 5,
       "value": "\"ETF\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12794,
       "length": 17,
       "value": "\"GOVT_SECURITIES\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12827,
       "length": 5,
       "value": "\"IDR\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12862,
       "length": 20,
       "value": "\"INSURANCE_POLICIES\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12900,
       "length": 7,
       "value": "\"INVIT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12931,
       "length": 14,
       "value": "\"MUTUAL_FUNDS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12961,
       "length": 5,
       "value": "\"NPS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 12984,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13020,
       "length": 19,
       "value": "\"RECURRING_DEPOSIT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13056,
       "length": 6,
       "value": "\"REIT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13078,
       "length": 5,
       "value": "\"SIP\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13107,
       "length": 14,
       "value": "\"TERM-DEPOSIT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13190,
       "length": 17,
       "value": "\"TRANSACTIONTYPE\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13237,
       "length": 19,
       "value": "\"TRANSACTIONAMOUNT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13319,
       "length": 3,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13343,
       "length": 4,
       "value": "\"!=\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13367,
       "length": 3,
       "value": "\">\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13391,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13425,
       "length": 4,
       "value": "\">=\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 13457,
       "length": 4,
       "value": "\"<=\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14470,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14505,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14799,
       "length": 4,
       "value": "\"AA\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14823,
       "length": 5,
       "value": "\"FIU\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14849,
       "length": 6,
       "value": "\"User\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14882,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14921,
       "length": 12,
       "value": "\"ConsentUse\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 14957,
       "length": 9,
       "value": "\"Purpose\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 15000,
       "length": 19,
       "value": "\"DataDateTimeRange\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 15044,
       "length": 10,
       "value": "\"DataLife\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 15080,
       "length": 11,
       "value": "\"Frequency\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 15118,
       "length": 12,
       "value": "\"DataFilter\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 15156,
       "length": 11,
       "value": "\"Signature\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 18687,
       "length": 19,
       "value": "\"WEALTH_MANAGEMENT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 18743,
       "length": 28,
       "value": "\"CUSTOMER_SPENDING_PATTERNS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 18803,
       "length": 22,
       "value": "\"AGGREGATED_STATEMENT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 18866,
       "length": 33,
       "value": "\"CONSENT_FOR_MONITORING_ACCOUNTS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 18926,
       "length": 18,
       "value": "\"ONE_TIME_CONSENT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 20823,
       "length": 5,
       "value": "\"FIP\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 20853,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
       "kind": "Array",
       "offset": 495,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
       "kind": "Array",
       "offset": 533,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
       "kind": "Array",
       "offset": 835,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/EventDefinition.swift",
       "kind": "Array",
       "offset": 867,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 250,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 335,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 374,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 410,
       "length": 4,
       "value": "8000"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 449,
       "length": 4,
       "value": "8001"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 480,
       "length": 4,
       "value": "8002"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 503,
       "length": 4,
       "value": "9000"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 532,
       "length": 4,
       "value": "9999"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 7,
       "value": "\"1.1.2\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 23,
       "value": "\"cookiejar-aa@finvu.in\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 5,
       "value": "\"101\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 5,
       "value": "\"102\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 5,
       "value": "\"103\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 5,
       "value": "\"104\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 5,
       "value": "\"105\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 45,
       "value": "\"https:\/\/api.rebit.org.in\/aa\/purpose\/101.xml\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 45,
       "value": "\"https:\/\/api.rebit.org.in\/aa\/purpose\/102.xml\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 45,
       "value": "\"https:\/\/api.rebit.org.in\/aa\/purpose\/103.xml\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 45,
       "value": "\"https:\/\/api.rebit.org.in\/aa\/purpose\/104.xml\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 45,
       "value": "\"https:\/\/api.rebit.org.in\/aa\/purpose\/105.xml\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 27,
       "value": "\"SNA authentication failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 34,
       "value": "\"SNA authentication was cancelled\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 30,
       "value": "\"SNA authentication timed out\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 24,
       "value": "\"Network error occurred\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 19,
       "value": "\"Connection failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 638,
       "length": 20,
       "value": "\"Connection timeout\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 694,
       "length": 21,
       "value": "\"SSL pinning failure\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 22,
       "value": "\"Session disconnected\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 17,
       "value": "\"Session expired\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 17,
       "value": "\"Session invalid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 979,
       "length": 23,
       "value": "\"Authentication failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1040,
       "length": 31,
       "value": "\"Authentication retry required\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1114,
       "length": 37,
       "value": "\"Mobile number verification required\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 24,
       "value": "\"Forgot password failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1251,
       "length": 22,
       "value": "\"Forgot handle failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 18,
       "value": "\"Record not found\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1392,
       "length": 16,
       "value": "\"Data not found\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1438,
       "length": 14,
       "value": "\"Invalid data\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 20,
       "value": "\"Data parsing error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1594,
       "length": 44,
       "value": "\"CSID already exists: %@, skipping API call\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1672,
       "length": 23,
       "value": "\"CSID API response: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1723,
       "length": 16,
       "value": "\"CSID saved: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1770,
       "length": 28,
       "value": "\"CSID not found in response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1830,
       "length": 31,
       "value": "\"CSID API failed with code: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 33,
       "value": "\"Error parsing CSID response: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 1963,
       "length": 24,
       "value": "\"Failed to get CSID: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2021,
       "length": 19,
       "value": "\"WebSocket opened.\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2079,
       "length": 28,
       "value": "\"WebSocket message sent: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2150,
       "length": 32,
       "value": "\"WebSocket message received: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2231,
       "length": 39,
       "value": "\"WebSocket binary message received: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2304,
       "length": 38,
       "value": "\"WebSocket closed: code=%@, reason=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2377,
       "length": 23,
       "value": "\"WebSocket failure: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2438,
       "length": 34,
       "value": "\"Could not auto-connect: error=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2501,
       "length": 17,
       "value": "\"Set Cookies: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2597,
       "length": 17,
       "value": "\"Unknown Purpose\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 5,
       "value": "\"SNA\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 15,
       "value": "\"\/consentapiv2\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 2727,
+      "length": 8,
+      "value": "\"\/apiv2\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "kind": "StringLiteral",
+      "offset": 2795,
       "length": 24,
       "value": "\"Generic error occurred\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 2814,
+      "offset": 2850,
       "length": 24,
       "value": "\"Unknown error occurred\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 2908,
       "length": 18,
       "value": "\"Operation failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 2923,
+      "offset": 2959,
       "length": 17,
       "value": "\"Invalid request\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 2970,
+      "offset": 3006,
       "length": 14,
       "value": "\"Server error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 3080,
       "length": 19,
       "value": "\"Logout successful\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3094,
+      "offset": 3130,
       "length": 15,
       "value": "\"Logout failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3178,
       "length": 17,
       "value": "\"Session cleared\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 3269,
       "length": 43,
       "value": "\"Login OTP success: otpRef=%@, authType=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3346,
       "length": 45,
       "value": "\"SNA flow: starting performSna for otpRef=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3391,
+      "offset": 3427,
       "length": 35,
       "value": "\"performSna timed out or threw: %@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3472,
+      "offset": 3508,
       "length": 45,
       "value": "\"SNA authentication successful for otpRef=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
+      "offset": 3598,
       "length": 51,
       "value": "\"SNA authentication failed for otpRef=%@, error=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3653,
+      "offset": 3689,
       "length": 39,
       "value": "\"SNA coroutine cancelled for otpRef=%@\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3731,
+      "offset": 3767,
       "length": 30,
       "value": "\"SNA perform threw unexpected\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3875,
+      "offset": 3911,
       "length": 17,
       "value": "\"Request timeout\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 3963,
       "length": 19,
       "value": "\"Request cancelled\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 3978,
+      "offset": 4014,
       "length": 16,
       "value": "\"Request failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4063,
+      "offset": 4099,
       "length": 24,
       "value": "\"Response parsing error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4121,
+      "offset": 4157,
       "length": 18,
       "value": "\"Invalid response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4171,
+      "offset": 4207,
       "length": 16,
       "value": "\"Empty response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4273,
+      "offset": 4309,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4311,
+      "offset": 4347,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4349,
+      "offset": 4385,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4389,
+      "offset": 4425,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 4490,
       "length": 8,
       "value": "\"Origin\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4496,
+      "offset": 4532,
       "length": 12,
       "value": "\"Set-Cookie\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4537,
+      "offset": 4573,
       "length": 6,
       "value": "\"csid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4602,
+      "offset": 4638,
       "length": 14,
       "value": "\"consentapiv2\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "IntegerLiteral",
-      "offset": 4692,
+      "offset": 4728,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "IntegerLiteral",
-      "offset": 4741,
+      "offset": 4777,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 4862,
       "length": 24,
       "value": "\"FinvuNetworkingManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 4916,
       "length": 22,
       "value": "\"FinvuResponseManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4931,
+      "offset": 4967,
       "length": 22,
       "value": "\"FinvuRequestsManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 4982,
+      "offset": 5018,
       "length": 21,
       "value": "\"FinvuStorageManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5034,
+      "offset": 5070,
       "length": 16,
       "value": "\"FinvuWebSocket\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5109,
+      "offset": 5145,
       "length": 11,
       "value": "\"connected\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5154,
+      "offset": 5190,
       "length": 14,
       "value": "\"disconnected\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5205,
+      "offset": 5241,
       "length": 18,
       "value": "\"message received\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5256,
+      "offset": 5292,
       "length": 14,
       "value": "\"message sent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5296,
+      "offset": 5332,
       "length": 6,
       "value": "\"ping\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5328,
+      "offset": 5364,
       "length": 6,
       "value": "\"pong\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5372,
+      "offset": 5408,
       "length": 19,
       "value": "\"viability changed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5431,
+      "offset": 5467,
       "length": 21,
       "value": "\"reconnect suggested\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5483,
+      "offset": 5519,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5521,
+      "offset": 5557,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5560,
+      "offset": 5596,
       "length": 13,
       "value": "\"peer closed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 5644,
       "length": 16,
       "value": "\"session cookie\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5653,
+      "offset": 5689,
       "length": 9,
       "value": "\"cookies\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5691,
+      "offset": 5727,
       "length": 9,
       "value": "\"headers\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5735,
+      "offset": 5771,
       "length": 16,
       "value": "\"string message\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5786,
+      "offset": 5822,
       "length": 16,
       "value": "\"binary message\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
+      "offset": 5866,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 5900,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5897,
+      "offset": 5933,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5933,
+      "offset": 5969,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 5976,
+      "offset": 6012,
       "length": 28,
       "value": "\"CSID obtained successfully\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6038,
+      "offset": 6074,
       "length": 21,
       "value": "\"No CSID in response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6097,
+      "offset": 6133,
       "length": 29,
       "value": "\"Error parsing CSID response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6199,
       "length": 18,
       "value": "\"Invalid response\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6220,
+      "offset": 6256,
       "length": 21,
       "value": "\"Auto-connect failed\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6280,
+      "offset": 6316,
       "length": 38,
       "value": "\"No config available for auto-connect\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6406,
+      "offset": 6442,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6439,
+      "offset": 6475,
       "length": 7,
       "value": "\"RETRY\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6471,
+      "offset": 6507,
       "length": 8,
       "value": "\"VERIFY\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6502,
+      "offset": 6538,
       "length": 6,
       "value": "\"SEND\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6533,
+      "offset": 6569,
       "length": 8,
       "value": "\"ACCEPT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6566,
+      "offset": 6602,
       "length": 8,
       "value": "\"REJECT\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6607,
+      "offset": 6643,
       "length": 18,
       "value": "\"RECORD-NOT-FOUND\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6726,
+      "offset": 6762,
       "length": 6,
       "value": "\"8000\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
       "kind": "StringLiteral",
-      "offset": 6757,
+      "offset": 6801,
+      "length": 6,
+      "value": "\"8010\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuConstatns.swift",
+      "kind": "StringLiteral",
+      "offset": 6897,
       "length": 6,
       "value": "\"9000\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
       "kind": "Dictionary",
       "offset": 1092,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 7,
       "value": "\"count\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
       "kind": "BooleanLiteral",
       "offset": 2322,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEvent.swift",
       "kind": "StringLiteral",
       "offset": 3090,
       "length": 6,
       "value": "\"json\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 11,
       "value": "\"websocket\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 11,
       "value": "\"websocket\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 13,
       "value": "\"redirection\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 13,
       "value": "\"redirection\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 666,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 742,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 977,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1060,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1143,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1219,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 16,
       "value": "\"authentication\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1412,
       "length": 11,
       "value": "\"discovery\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 11,
       "value": "\"discovery\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1507,
       "length": 21,
       "value": "\"ACCOUNTS_DISCOVERED\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 11,
       "value": "\"discovery\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1609,
       "length": 18,
       "value": "\"DISCOVERY_FAILED\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1694,
       "length": 11,
       "value": "\"discovery\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1714,
       "length": 25,
       "value": "\"ACCOUNTS_NOT_DISCOVERED\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1828,
       "length": 9,
       "value": "\"linking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1846,
       "length": 19,
       "value": "\"LINKING_INITIATED\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1930,
       "length": 9,
       "value": "\"linking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2001,
       "length": 9,
       "value": "\"linking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2070,
       "length": 9,
       "value": "\"linking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2088,
       "length": 17,
       "value": "\"LINKING_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2165,
       "length": 9,
       "value": "\"linking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2183,
       "length": 17,
       "value": "\"LINKING_FAILURE\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2294,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "Array",
       "offset": 2311,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "Array",
       "offset": 2324,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2387,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2455,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2530,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2604,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2681,
       "length": 9,
       "value": "\"consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2773,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2840,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 15,
       "value": "\"com.finvu.ios\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 19,
       "value": "\"FinvuEventTracker\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 7,
       "value": "\"1.0.9\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 27,
       "value": "\"FinvuSDKEventNotification\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "Array",
       "offset": 1094,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "Dictionary",
       "offset": 1155,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "Dictionary",
       "offset": 1208,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1385,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 35,
       "value": "\"com.finvu.eventTracker.processing\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventTracker.swift",
       "kind": "Dictionary",
       "offset": 6015,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 299,
       "length": 19,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 21,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 393,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 14,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 468,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 492,
       "length": 16,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 518,
       "length": 19,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 547,
       "length": 21,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 578,
       "length": 21,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 609,
       "length": 14,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 633,
       "length": 22,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 694,
       "length": 18,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 722,
       "length": 18,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 750,
       "length": 15,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 775,
       "length": 21,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 833,
       "length": 16,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 859,
       "length": 19,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 888,
       "length": 16,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 914,
       "length": 14,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 938,
       "length": 14,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 989,
       "length": 21,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1020,
       "length": 15,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1045,
       "length": 13,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1068,
       "length": 20,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1098,
       "length": 19,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1127,
       "length": 22,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1184,
       "length": 12,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/events\/FinvuEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 1206,
       "length": 14,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 10,
       "value": "\"FinvuSDK\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 21,
       "value": "\"websocketNetworking\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 8,
       "value": "\"Crypto\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/FinvuManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/utils\/FinvuLoggerUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 14,
+      "value": "\"FinvuManager\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/FinvuManager.swift",
       "kind": "Dictionary",
-      "offset": 5554,
+      "offset": 7288,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/FinvuManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/FinvuManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19432,
+      "offset": 21559,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 421,
+      "offset": 513,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 468,
+      "offset": 560,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 878,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1361,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuNetworkingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1619,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 727,
       "length": 25,
       "value": "\"FinvuRequestCompletions\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 855,
+      "length": 17,
+      "value": "\"RequestTimeouts\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 929,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuRequestsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
       "length": 22,
       "value": "\"FinvuRequestsManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthConfig.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 532,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthConfig.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 556,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderNoop.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderNoop.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 15,
       "value": "\"com.finvu.sna\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderNoop.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderNoop.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 26,
       "value": "\"FinvuSnaAuthProviderNoop\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 15,
       "value": "\"com.finvu.sna\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 30,
       "value": "\"FinvuSnaAuthProviderRegistry\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuSnaAuthProviderRegistry.swift",
       "kind": "Array",
       "offset": 371,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/LoginManger.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/LoginManger.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 15,
       "value": "\"com.finvu.ios\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/LoginManger.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Client\/Classes\/LoginManger.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 14,
       "value": "\"LoginManager\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 10,
       "value": "\"UserInfo\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 10,
       "value": "\"mobileNo\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 1388,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 1446,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 1481,
       "length": 13,
       "value": "\"FIDataRange\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 1518,
       "length": 9,
       "value": "\"Consent\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 1555,
       "length": 13,
       "value": "\"KeyMaterial\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2126,
       "length": 11,
       "value": "\"SessionID\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2163,
       "length": 11,
       "value": "\"ConsentID\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2599,
       "length": 11,
       "value": "\"cryptoAlg\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2677,
       "length": 13,
       "value": "\"DHPublicKey\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2712,
       "length": 7,
       "value": "\"Nonce\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2930,
       "length": 12,
       "value": "\"Parameters\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 2967,
       "length": 10,
       "value": "\"KeyValue\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 3335,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 3393,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 3780,
       "length": 5,
       "value": "\"ver\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 3838,
       "length": 7,
       "value": "\"txnid\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 3864,
       "length": 4,
       "value": "\"FI\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4070,
       "length": 7,
       "value": "\"fipID\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4123,
       "length": 13,
       "value": "\"KeyMaterial\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4459,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4513,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4563,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
-      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
+      "filePath": "\/Users\/jenilk\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
       "offset": 4628,
       "length": 9,
