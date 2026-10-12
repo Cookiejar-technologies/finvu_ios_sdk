@@ -1,0 +1,3553 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FinvuAuthenticationSDK",
+    "printedName": "FinvuAuthenticationSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuAuthEnvironment",
+        "printedName": "FinvuAuthEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "development",
+            "printedName": "development",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthEnvironment.Type) -> FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthEnvironment",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                    "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthEnvironment",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                        "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment@FinvuAuthEnvironmentDevelopment",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO11developmentyA2CmF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthEnvironment.Type) -> FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthEnvironment",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                    "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthEnvironment",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                        "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment@FinvuAuthEnvironmentProduction",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO10productionyA2CmF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO11descriptionSSvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO11descriptionSSvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO11descriptionSSvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO11descriptionSSvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDebugMode",
+            "printedName": "isDebugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO11isDebugModeSbvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO11isDebugModeSbvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO11isDebugModeSbvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO11isDebugModeSbvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthEnvironment",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                    "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "FinvuAuthenticationSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueSivp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueSivp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueSivg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO8rawValueSivg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FinvuAuthenticationSDK.FinvuAuthEnvironment]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthEnvironment",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                    "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO8allCasesSayACGvpZ",
+            "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO8allCasesSayACGvpZ",
+            "moduleName": "FinvuAuthenticationSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FinvuAuthenticationSDK.FinvuAuthEnvironment]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthEnvironment",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                        "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A15AuthEnvironmentO8allCasesSayACGvgZ",
+                "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO8allCasesSayACGvgZ",
+                "moduleName": "FinvuAuthenticationSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment",
+        "mangledName": "$s22FinvuAuthenticationSDK0A15AuthEnvironmentO",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FinvuAuthenticationSDK.FinvuAuthEnvironment]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthEnvironment",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                        "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuAuthenticationNativeWrapper",
+        "printedName": "FinvuAuthenticationNativeWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthenticationNativeWrapper",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthenticationNativeWrapper",
+                "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC6sharedACvpZ",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC6sharedACvpZ",
+            "moduleName": "FinvuAuthenticationSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthenticationNativeWrapper",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthenticationNativeWrapper",
+                    "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC6sharedACvgZ",
+                "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC6sharedACvgZ",
+                "moduleName": "FinvuAuthenticationSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(viewController:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthEnvironment",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC5setup14viewController11environmentySo06UIViewH0C_AA0A15AuthEnvironmentOtF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC5setup14viewController11environmentySo06UIViewH0C_AA0A15AuthEnvironmentOtF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initAuth",
+            "printedName": "initAuth(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC8initAuth6config10completionySDySSypG_ys6ResultOyAgA0aG9ExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC8initAuth6config10completionySDySSypG_ys6ResultOyAgA0aG9ExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startAuth",
+            "printedName": "startAuth(snaUrl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC9startAuth6snaUrl10completionySS_ys6ResultOySDySSypGAA0aG9ExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC9startAuth6snaUrl10completionySS_ys6ResultOySDySSypGAA0aG9ExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initSNA",
+            "printedName": "initSNA(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC7initSNA6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC7initSNA6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSNA",
+            "printedName": "startSNA(snaUrl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC8startSNA6snaUrl10completionySS_ys6ResultOySDySSypGAA0A13AuthExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC8startSNA6snaUrl10completionySS_ys6ResultOySDySSypGAA0A13AuthExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceBindingState",
+            "printedName": "getDeviceBindingState(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC21getDeviceBindingState6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC21getDeviceBindingState6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enrollDeviceBinding",
+            "printedName": "enrollDeviceBinding(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC19enrollDeviceBinding6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC19enrollDeviceBinding6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signDeviceBindingChallenge",
+            "printedName": "signDeviceBindingChallenge(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthException",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC26signDeviceBindingChallenge6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC26signDeviceBindingChallenge6config10completionySDySSypG_ys6ResultOyAgA0A13AuthExceptionVGctF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCapabilities",
+            "printedName": "getCapabilities()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC15getCapabilitiesSDySSypGyF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC15getCapabilitiesSDySSypGyF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanupAll",
+            "printedName": "cleanupAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC10cleanupAllyyF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC10cleanupAllyyF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22FinvuAuthenticationSDK0aB13NativeWrapperC",
+        "mangledName": "$s22FinvuAuthenticationSDK0aB13NativeWrapperC",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuAuthenticationWrapper",
+        "printedName": "FinvuAuthenticationWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthenticationWrapper",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthenticationWrapper",
+                "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC6sharedACvpZ",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC6sharedACvpZ",
+            "moduleName": "FinvuAuthenticationSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthenticationWrapper",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthenticationWrapper",
+                    "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC6sharedACvgZ",
+                "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC6sharedACvgZ",
+                "moduleName": "FinvuAuthenticationSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupWebView",
+            "printedName": "setupWebView(_:viewController:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthEnvironment",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC12setupWebView_14viewController11environmentySo05WKWebG0C_So06UIViewI0CAA0A15AuthEnvironmentOtF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC12setupWebView_14viewController11environmentySo05WKWebG0C_So06UIViewI0CAA0A15AuthEnvironmentOtF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanup",
+            "printedName": "cleanup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC7cleanupyyF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC7cleanupyyF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanupAll",
+            "printedName": "cleanupAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC10cleanupAllyyF",
+            "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC10cleanupAllyyF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22FinvuAuthenticationSDK0aB7WrapperC",
+        "mangledName": "$s22FinvuAuthenticationSDK0aB7WrapperC",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuAuthException",
+        "printedName": "FinvuAuthException",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV6statusSSvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV6statusSSvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV6statusSSvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV6statusSSvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV9errorCodeSSSgvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV9errorCodeSSSgvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV9errorCodeSSSgvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV9errorCodeSSSgvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV12errorMessageSSvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV12errorMessageSSvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV12errorMessageSSvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV12errorMessageSSvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(status:errorCode:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthException",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV6status9errorCode0G7MessageACSS_SSSgSStcfc",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV6status9errorCode0G7MessageACSS_SSSgSStcfc",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthException",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthException",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FinvuAuthenticationSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FinvuAuthenticationSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22FinvuAuthenticationSDK0A13AuthExceptionV",
+        "mangledName": "$s22FinvuAuthenticationSDK0A13AuthExceptionV",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuAuthenticationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuAuthHttpError",
+        "printedName": "FinvuAuthHttpError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> (Swift.String) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO10invalidURLyACSScACmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO10invalidURLyACSScACmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "encodingError",
+            "printedName": "encodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> (any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO08encodingF0yACs0F0_pcACmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO08encodingF0yACs0F0_pcACmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> (any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO07networkF0yACs0F0_pcACmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO07networkF0yACs0F0_pcACmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuAuthHttpError",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO15invalidResponseyA2CmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "httpError",
+            "printedName": "httpError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> (Swift.Int, Foundation.Data?) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data?) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Data?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO04httpF0yACSi_10Foundation4DataVSgtcACmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO04httpF0yACSi_10Foundation4DataVSgtcACmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuAuthenticationSDK.FinvuAuthHttpError.Type) -> (any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FinvuAuthenticationSDK.FinvuAuthHttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinvuAuthHttpError",
+                        "printedName": "FinvuAuthenticationSDK.FinvuAuthHttpError",
+                        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO08decodingF0yACs0F0_pcACmF",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO08decodingF0yACs0F0_pcACmF",
+            "moduleName": "FinvuAuthenticationSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO16errorDescriptionSSSgvp",
+            "moduleName": "FinvuAuthenticationSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO16errorDescriptionSSSgvg",
+                "moduleName": "FinvuAuthenticationSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22FinvuAuthenticationSDK0A13AuthHttpErrorO",
+        "mangledName": "$s22FinvuAuthenticationSDK0A13AuthHttpErrorO",
+        "moduleName": "FinvuAuthenticationSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 7,
+      "value": "\"1.1.1\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 14,
+      "value": "\"FinvuAuthSDK\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "Array",
+      "offset": 714,
+      "length": 25,
+      "value": "[\"SNA\", \"DEVICE_BINDING\"]"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "Array",
+      "offset": 783,
+      "length": 381,
+      "value": "[\"initAuth\", \"startAuth\", \"initSNA\", \"startSNA\", \"getDeviceBindingState\", \"enrollDeviceBinding\", \"signDeviceBindingChallenge\", \"getCapabilities\"]"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 14,
+      "value": "\"NOT_ENROLLED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1639,
+      "length": 10,
+      "value": "\"ENROLLED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1759,
+      "length": 13,
+      "value": "\"INVALIDATED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1854,
+      "length": 13,
+      "value": "\"UNSUPPORTED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 16,
+      "value": "\"NO_SCREEN_LOCK\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2122,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 13,
+      "value": "\"DEVELOPMENT\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2904,
+      "length": 12,
+      "value": "\"PRODUCTION\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3038,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3752,
+      "length": 12,
+      "value": "\"NATIVE_SNA\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3804,
+      "length": 16,
+      "value": "\"DEVICE_BINDING\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3933,
+      "length": 9,
+      "value": "\"SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3975,
+      "length": 9,
+      "value": "\"FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4133,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4217,
+      "length": 6,
+      "value": "\"1001\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4338,
+      "length": 6,
+      "value": "\"1002\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4414,
+      "length": 6,
+      "value": "\"5003\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4505,
+      "length": 6,
+      "value": "\"1001\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4750,
+      "length": 28,
+      "value": "\"DEVICE_BINDING_UNSUPPORTED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 29,
+      "value": "\"DEVICE_BINDING_NOT_ENROLLED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4916,
+      "length": 32,
+      "value": "\"DEVICE_BINDING_KEY_INVALIDATED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5003,
+      "length": 31,
+      "value": "\"DEVICE_BINDING_USER_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5086,
+      "length": 28,
+      "value": "\"DEVICE_BINDING_AUTH_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5168,
+      "length": 30,
+      "value": "\"DEVICE_BINDING_ENROLL_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5250,
+      "length": 28,
+      "value": "\"DEVICE_BINDING_SIGN_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5321,
+      "length": 19,
+      "value": "\"DEVICE_NOT_SECURE\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5383,
+      "length": 19,
+      "value": "\"INVALID_CHALLENGE\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5531,
+      "length": 20,
+      "value": "\"UNSUPPORTED_METHOD\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5677,
+      "length": 28,
+      "value": "\"INVALID_JSON_CONFIGURATION\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5849,
+      "length": 46,
+      "value": "\"Authentication failed, something went wrong.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5929,
+      "length": 90,
+      "value": "\"Authentication failed, SDK initialization failed. Please try initializing the SDK again.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6071,
+      "length": 58,
+      "value": "\"Invalid JSON configuration for Finvu Authentication SDK.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6170,
+      "length": 26,
+      "value": "\"Invalid SNA URI provided\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6246,
+      "length": 72,
+      "value": "\"No cellular network available. Please ensure cellular data is enabled.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6373,
+      "length": 77,
+      "value": "\"Not connected to mobile data. Please disable WiFi and use cellular network.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6496,
+      "length": 48,
+      "value": "\"Connection timeout - SNA request took too long\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6597,
+      "length": 20,
+      "value": "\"SNA request failed\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6665,
+      "length": 20,
+      "value": "\"Too many redirects\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6732,
+      "length": 19,
+      "value": "\"Connection failed\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6797,
+      "length": 36,
+      "value": "\"Response has no data or is corrupt\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6879,
+      "length": 22,
+      "value": "\"Invalid redirect URL\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 6950,
+      "length": 54,
+      "value": "\"Session not initialized. Please call initAuth first.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7053,
+      "length": 48,
+      "value": "\"iOS 12.0 or later is required for cellular SNA\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7145,
+      "length": 45,
+      "value": "\"ViewController is required but not provided\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7237,
+      "length": 23,
+      "value": "\"Logger not configured\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7304,
+      "length": 20,
+      "value": "\"Invalid event type\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7363,
+      "length": 24,
+      "value": "\"Network error occurred\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7427,
+      "length": 25,
+      "value": "\"Request encoding failed\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7492,
+      "length": 26,
+      "value": "\"Response decoding failed\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7561,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7622,
+      "length": 27,
+      "value": "\"Invalid response received\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7724,
+      "length": 46,
+      "value": "\"This device does not support device binding.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7823,
+      "length": 67,
+      "value": "\"Device is not enrolled. Please enroll before signing a challenge.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 7946,
+      "length": 61,
+      "value": "\"Device binding key is no longer valid. Please enroll again.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8062,
+      "length": 38,
+      "value": "\"Device authentication was cancelled.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8152,
+      "length": 31,
+      "value": "\"Device authentication failed.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8237,
+      "length": 35,
+      "value": "\"Device binding enrollment failed.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8324,
+      "length": 46,
+      "value": "\"Failed to sign the device binding challenge.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8421,
+      "length": 82,
+      "value": "\"No screen lock is set on this device. Set a passcode or biometric and try again.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8546,
+      "length": 38,
+      "value": "\"Invalid or empty challenge provided.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8643,
+      "length": 20,
+      "value": "\"Unsupported method\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8755,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8797,
+      "length": 10,
+      "value": "\"authType\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8849,
+      "length": 17,
+      "value": "\"deliveryChannel\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8896,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8938,
+      "length": 12,
+      "value": "\"identities\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 8983,
+      "length": 9,
+      "value": "\"channel\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9025,
+      "length": 9,
+      "value": "\"methods\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9065,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9103,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9149,
+      "length": 14,
+      "value": "\"errorMessage\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9199,
+      "length": 11,
+      "value": "\"errorCode\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9242,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9287,
+      "length": 12,
+      "value": "\"statusCode\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9334,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9380,
+      "length": 10,
+      "value": "\"entityId\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9426,
+      "length": 11,
+      "value": "\"requestId\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9476,
+      "length": 14,
+      "value": "\"authProvider\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9526,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9577,
+      "length": 15,
+      "value": "\"failureReason\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9629,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9675,
+      "length": 10,
+      "value": "\"metaData\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9716,
+      "length": 7,
+      "value": "\"txnid\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9752,
+      "length": 5,
+      "value": "\"mcc\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9786,
+      "length": 5,
+      "value": "\"mnc\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9833,
+      "length": 16,
+      "value": "\"httpStatusCode\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9884,
+      "length": 10,
+      "value": "\"finalUrl\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9929,
+      "length": 10,
+      "value": "\"snaToken\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 9998,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10037,
+      "length": 7,
+      "value": "\"keyId\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10085,
+      "length": 15,
+      "value": "\"allowedKeyIds\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10136,
+      "length": 11,
+      "value": "\"publicKey\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10182,
+      "length": 11,
+      "value": "\"algorithm\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10230,
+      "length": 13,
+      "value": "\"attestation\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10278,
+      "length": 11,
+      "value": "\"challenge\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10324,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10382,
+      "length": 22,
+      "value": "\"attestationChallenge\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10442,
+      "length": 13,
+      "value": "\"promptTitle\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10496,
+      "length": 16,
+      "value": "\"promptSubtitle\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10580,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10630,
+      "length": 15,
+      "value": "\"bridgeVersion\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10678,
+      "length": 9,
+      "value": "\"factors\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10730,
+      "length": 18,
+      "value": "\"supportedMethods\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10860,
+      "length": 18,
+      "value": "\"clientAppVersion\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10915,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10955,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 10993,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11040,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11158,
+      "length": 43,
+      "value": "\"FINVU_AUTH_WRAPPER :: SCRIPT invoked is :\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11246,
+      "length": 24,
+      "value": "\"FINVU_AUTH_WRAPPER :: \""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11311,
+      "length": 42,
+      "value": "\"FINVU_AUTH_WRAPPER :: initialised bridge\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11395,
+      "length": 23,
+      "value": "\"HTTP POST Request to:\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11461,
+      "length": 23,
+      "value": "\"HTTP Response Status:\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11526,
+      "length": 16,
+      "value": "\"Logging event:\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11579,
+      "length": 19,
+      "value": "\"cleanup completed\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 11723,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11770,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11825,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11867,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11918,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 11971,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12025,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12083,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12139,
+      "length": 15,
+      "value": "\"X-Environment\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12263,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12375,
+      "length": 11,
+      "value": "\"INIT_AUTH\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12430,
+      "length": 20,
+      "value": "\"INIT_AUTH_RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12486,
+      "length": 12,
+      "value": "\"START_AUTH\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12543,
+      "length": 21,
+      "value": "\"START_AUTH_RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12675,
+      "length": 29,
+      "value": "\"finvu_authentication_bridge\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12833,
+      "length": 10,
+      "value": "\"initAuth\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12886,
+      "length": 11,
+      "value": "\"startAuth\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 12980,
+      "length": 9,
+      "value": "\"initSNA\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13031,
+      "length": 10,
+      "value": "\"startSNA\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13129,
+      "length": 23,
+      "value": "\"getDeviceBindingState\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13206,
+      "length": 21,
+      "value": "\"enrollDeviceBinding\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13289,
+      "length": 28,
+      "value": "\"signDeviceBindingChallenge\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13385,
+      "length": 17,
+      "value": "\"getCapabilities\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13441,
+      "length": 10,
+      "value": "\"callback\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13487,
+      "length": 8,
+      "value": "\"method\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13536,
+      "length": 12,
+      "value": "\"initConfig\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13585,
+      "length": 8,
+      "value": "\"snaUri\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13710,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13923,
+      "length": 17,
+      "value": "\"Verify it's you\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 13981,
+      "length": 35,
+      "value": "\"Confirm your identity to continue\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14136,
+      "length": 16,
+      "value": "\"DEVICE_BINDING\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14389,
+      "length": 32,
+      "value": "\"BIOMETRIC_OR_DEVICE_CREDENTIAL\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14586,
+      "length": 59,
+      "value": "\"https:\/\/reactjssdk.finvu.in\/redirection\/api\/auth-tracking\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14695,
+      "length": 58,
+      "value": "\"https:\/\/webvwlive.finvu.in\/redirection\/api\/auth-tracking\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14908,
+      "length": 37,
+      "value": "\"^https:\/\/reactjssdk\\.finvu\\.in\/.*\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 14998,
+      "length": 36,
+      "value": "\"^https:\/\/webvwlive\\.finvu\\.in\/.*\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15566,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15592,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15611,
+      "length": 17,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15638,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15655,
+      "length": 6,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15671,
+      "length": 28,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15709,
+      "length": 28,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuAuthConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15747,
+      "length": 23,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuAuthLogManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 602,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuAuthLogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 30,
+      "value": "\"finvu.auth.log.manager.state\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/repository\/FinvuAuthRequestManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/utils\/FinvuCellularPathChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 32,
+      "value": "\"com.finvu.auth.sna.pathmonitor\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuCellularSnaClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 425,
+      "length": 3,
+      "value": "7.0"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuCellularSnaClient.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 32,
+      "value": "\"com.finvu.cellular.sna.manager\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuDeviceBindingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 33,
+      "value": "\"in.finvu.authsdk.devicebinding.\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuDeviceBindingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1940,
+      "length": 44,
+      "value": "\"in.finvu.authsdk.devicebinding.domainstate\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuDeviceBindingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2098,
+      "length": 7,
+      "value": "\"ES256\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuDeviceBindingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3825,
+      "length": 8,
+      "value": "\"ENROLL\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuDeviceBindingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3860,
+      "length": 6,
+      "value": "\"SIGN\""
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuHTTPManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 649,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenilk\/finvu_flutter_auth_sdk\/finvu-auth-sdk-ios-implementation\/FinvuAuthenticationSDK\/FinvuAuthenticationSDK\/Classes\/manager\/FinvuHTTPManager.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 26,
+      "value": "\"finvu.http.manager.state\""
+    }
+  ]
+}
