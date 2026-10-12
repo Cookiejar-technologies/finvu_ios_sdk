@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Starscream
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Starscream
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CommonCrypto
 import Foundation
 import Network
@@ -13,8 +13,12 @@ import _SwiftConcurrencyShims
 import zlib
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
 }
 public protocol EngineDelegate : AnyObject {
   func didReceive(event: Starscream.WebSocketEvent)
@@ -24,8 +28,12 @@ public protocol Engine {
   func start(request: Foundation.URLRequest)
   func stop(closeCode: Swift.UInt16)
   func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, opcode: Starscream.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
 }
 public class FoundationHTTPHandler : Starscream.HTTPHandler {
   public init()
@@ -53,10 +61,14 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension Starscream.FoundationSecurity : Starscream.CertificatePinning {
-  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((Starscream.PinningState) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (Starscream.PinningState) -> ())
+  #endif
 }
 extension Starscream.FoundationSecurity : Starscream.HeaderValidator {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public enum FoundationTransportError : Swift.Error {
   case invalidRequest
@@ -72,17 +84,25 @@ public enum FoundationTransportError : Swift.Error {
   public var usingTLS: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(streamConfiguration: ((Foundation.InputStream, Foundation.OutputStream) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any Starscream.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any Starscream.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 public protocol FrameCollectorDelegate : AnyObject {
   func didForm(event: Starscream.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FrameCollector {
   public enum Event {
@@ -105,7 +125,9 @@ public enum CloseCode : Swift.UInt16 {
   case encoding
   case policyViolated
   case messageTooBig
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -119,7 +141,9 @@ public enum FrameOpCode : Swift.UInt8 {
   case ping
   case pong
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt8)
+  #endif
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
     get
@@ -197,7 +221,9 @@ extension Foundation.URL {
   public var isTLSScheme: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParts() -> Starscream.URLParts?
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 public class NativeEngine : ObjectiveC.NSObject, Starscream.Engine, Foundation.URLSessionDataDelegate, Foundation.URLSessionWebSocketDelegate {
@@ -205,18 +231,30 @@ public class NativeEngine : ObjectiveC.NSObject, Starscream.Engine, Foundation.U
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: Starscream.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
   case pinningFailed
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -227,10 +265,14 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
-  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((Starscream.PinningState) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (Starscream.PinningState) -> ())
+  #endif
 }
 public protocol HeaderValidator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public enum ConnectionEvent {
   case connected([Swift.String : Swift.String])
@@ -256,7 +298,9 @@ public enum ServerEvent {
   case ping(any Starscream.Connection, Foundation.Data?)
 }
 public protocol Server {
+  #if compiler(>=5.3) && $NonescapableTypes
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
 }
 public class StringHTTPHandler : Starscream.HTTPHandler {
   public init()
@@ -281,10 +325,14 @@ public class TCPTransport : Starscream.Transport {
   }
   public init(connection: Network.NWConnection)
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any Starscream.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any Starscream.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
 }
 public enum ConnectionState {
   case connected
@@ -301,9 +349,13 @@ public protocol TransportEventClient : AnyObject {
 }
 public protocol Transport : AnyObject {
   func register(delegate: any Starscream.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any Starscream.CertificatePinning)?)
+  #endif
   func disconnect()
-  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   var usingTLS: Swift.Bool { get }
 }
 public enum ErrorType : Swift.Error {
@@ -326,11 +378,21 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
 }
 extension Starscream.WebSocketClient {
   public func write(string: Swift.String)
@@ -365,15 +427,27 @@ open class WebSocket : Starscream.WebSocketClient, Starscream.EngineDelegate {
     set
   }
   public init(request: Foundation.URLRequest, engine: any Starscream.Engine)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(request: Foundation.URLRequest, certPinner: (any Starscream.CertificatePinning)? = FoundationSecurity(), compressionHandler: (any Starscream.CompressionHandler)? = nil, useCustomEngine: Swift.Bool = true)
+  #endif
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
   public func didReceive(event: Starscream.WebSocketEvent)
   @objc deinit
 }
@@ -382,7 +456,9 @@ open class WebSocket : Starscream.WebSocketClient, Starscream.EngineDelegate {
 public class WebSocketServer : Starscream.Server, Starscream.ConnectionDelegate {
   public var onEvent: ((Starscream.ServerEvent) -> Swift.Void)?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
   public func didReceive(event: Starscream.ServerEvent)
   @objc deinit
 }
@@ -395,29 +471,43 @@ public class ServerConnection : Starscream.Connection, Starscream.HTTPServerDele
   public func didReceive(event: Starscream.HTTPEvent)
   public func frameProcessed(event: Starscream.FrameEvent)
   public func didForm(event: Starscream.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 public class WSCompression : Starscream.CompressionHandler {
   public init()
   public func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 public class WSEngine : Starscream.Engine, Starscream.TransportEventClient, Starscream.FramerEventClient, Starscream.FrameCollectorDelegate, Starscream.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(transport: any Starscream.Transport, certPinner: (any Starscream.CertificatePinning)? = nil, headerValidator: any Starscream.HeaderValidator = FoundationSecurity(), httpHandler: any Starscream.HTTPHandler = FoundationHTTPHandler(), framer: any Starscream.Framer = WSFramer(), compressionHandler: (any Starscream.CompressionHandler)? = nil)
+  #endif
   public func register(delegate: any Starscream.EngineDelegate)
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: Starscream.FrameOpCode, completion: (() -> ())?)
+  #endif
   public func connectionChanged(state: Starscream.ConnectionState)
   public func didReceiveHTTP(event: Starscream.HTTPEvent)
   public func frameProcessed(event: Starscream.FrameEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   public func didForm(event: Starscream.FrameCollector.Event)
   @objc deinit
 }

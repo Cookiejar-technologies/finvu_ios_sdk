@@ -1,0 +1,11 @@
+framework module FinvuAuthenticationSDK {
+  umbrella header "FinvuAuthenticationSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FinvuAuthenticationSDK.Swift {
+  header "FinvuAuthenticationSDK-Swift.h"
+  requires objc
+}

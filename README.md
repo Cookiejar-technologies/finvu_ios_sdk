@@ -14,7 +14,7 @@
 Welcome to the integration guide for Finvu iOS SDK! This document provides detailed instructions on integrating our SDK into your iOS application.
 
 ## Prerequisites
-    1. Min iOS version supported is iOS 13
+    1. Min iOS version supported is iOS 16
 
 ## Installation
 

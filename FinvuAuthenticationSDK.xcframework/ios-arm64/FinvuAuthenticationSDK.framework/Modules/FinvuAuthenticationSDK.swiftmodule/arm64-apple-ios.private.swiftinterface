@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinvuAuthenticationSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import CoreTelephony
+import CryptoKit
+@_exported import FinvuAuthenticationSDK
+import Foundation
+import LocalAuthentication
+import Network
+import Security
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc public enum FinvuAuthEnvironment : Swift.Int, Swift.CaseIterable {
+  case development
+  case production
+  public var description: Swift.String {
+    get
+  }
+  public var isDebugMode: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias AllCases = [FinvuAuthenticationSDK.FinvuAuthEnvironment]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [FinvuAuthenticationSDK.FinvuAuthEnvironment] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FinvuAuthenticationNativeWrapper {
+  public static let shared: FinvuAuthenticationSDK.FinvuAuthenticationNativeWrapper
+  public func setup(viewController: UIKit.UIViewController, environment: FinvuAuthenticationSDK.FinvuAuthEnvironment)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func initAuth(config: [Swift.String : Any], completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startAuth(snaUrl: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func initSNA(config: [Swift.String : Any], completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startSNA(snaUrl: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getDeviceBindingState(config: [Swift.String : Any], completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func enrollDeviceBinding(config: [Swift.String : Any], completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func signDeviceBindingChallenge(config: [Swift.String : Any], completion: @escaping (Swift.Result<[Swift.String : Any], FinvuAuthenticationSDK.FinvuAuthException>) -> Swift.Void)
+  #endif
+  public func getCapabilities() -> [Swift.String : Any]
+  public func cleanupAll()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FinvuAuthenticationWrapper {
+  public static let shared: FinvuAuthenticationSDK.FinvuAuthenticationWrapper
+  public func setupWebView(_ webView: WebKit.WKWebView, viewController: UIKit.UIViewController, environment: FinvuAuthenticationSDK.FinvuAuthEnvironment)
+  public func cleanup()
+  public func cleanupAll()
+  @objc deinit
+}
+public struct FinvuAuthException : Swift.Error, Swift.Codable {
+  public let status: Swift.String
+  public let errorCode: Swift.String?
+  public let errorMessage: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(status: Swift.String, errorCode: Swift.String? = nil, errorMessage: Swift.String)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum FinvuAuthHttpError : Swift.Error, Foundation.LocalizedError {
+  case invalidURL(Swift.String)
+  case encodingError(any Swift.Error)
+  case networkError(any Swift.Error)
+  case invalidResponse
+  case httpError(statusCode: Swift.Int, data: Foundation.Data?)
+  case decodingError(any Swift.Error)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+extension FinvuAuthenticationSDK.FinvuAuthEnvironment : Swift.Equatable {}
+extension FinvuAuthenticationSDK.FinvuAuthEnvironment : Swift.Hashable {}
+extension FinvuAuthenticationSDK.FinvuAuthEnvironment : Swift.RawRepresentable {}
