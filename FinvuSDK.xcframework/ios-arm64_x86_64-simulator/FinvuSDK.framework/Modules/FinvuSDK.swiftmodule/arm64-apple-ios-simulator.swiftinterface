@@ -819,8 +819,14 @@ public enum MfaConstants {
   public static let factorSna: Swift.String
   public static let factorPin: Swift.String
   public static let factorDeviceBinding: Swift.String
+  public static let factorQuestionLinkedAccount: Swift.String
+  public static let factorQuestionPan: Swift.String
+  public static let factorEmailOtp: Swift.String
+  public static let factorEmailLink: Swift.String
   public static let requirementVerification: Swift.String
   public static let requirementEnrollment: Swift.String
+  public static let purposePinRecovery: Swift.String
+  @available(*, deprecated, renamed: "purposePinRecovery", message: "Forgot PIN now runs PIN recovery")
   public static let purposePinReset: Swift.String
   public static let statusAuthenticated: Swift.String
   public static let statusFailed: Swift.String
@@ -829,6 +835,43 @@ public struct ValidationError {
   public let code: Swift.String
   public let message: Swift.String
   public let attemptsRemaining: Swift.Int?
+  public let support: FinvuSDK.RecoverySupport?
+}
+public struct RecoverySupport : Swift.Equatable {
+  public let email: Swift.String?
+  public let phone: Swift.String?
+  public let message: Swift.String?
+  public static func == (a: FinvuSDK.RecoverySupport, b: FinvuSDK.RecoverySupport) -> Swift.Bool
+}
+public struct RecoveryAccount : Swift.Equatable {
+  public let fipId: Swift.String
+  public let fiType: Swift.String?
+  public let accType: Swift.String?
+  public static func == (a: FinvuSDK.RecoveryAccount, b: FinvuSDK.RecoveryAccount) -> Swift.Bool
+}
+public struct RecoveryEmail : Swift.Equatable {
+  public let emailHash: Swift.String
+  public let maskedEmail: Swift.String
+  public let primary: Swift.Bool
+  public let selected: Swift.Bool
+  public static func == (a: FinvuSDK.RecoveryEmail, b: FinvuSDK.RecoveryEmail) -> Swift.Bool
+}
+public struct RecoveryAccountAnswer {
+  public let fipId: Swift.String
+  public let last4: Swift.String
+  public let fiType: Swift.String?
+  public let accType: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(fipId: Swift.String, last4: Swift.String, fiType: Swift.String? = nil, accType: Swift.String? = nil)
+  #endif
+}
+public struct RecoveryInfo {
+  public let method: Swift.String?
+  public let availableMethods: [Swift.String]
+  public let accounts: [FinvuSDK.RecoveryAccount]?
+  public let minAccountsRequired: Swift.Int?
+  public let emails: [FinvuSDK.RecoveryEmail]?
+  public let expiresAt: Swift.String?
 }
 public struct MfaError {
   public let code: Swift.String
@@ -884,7 +927,12 @@ public protocol MfaStep : AnyObject, Swift.Sendable {
   final public let resendInfo: FinvuSDK.ResendInfo?
   final public let resend: (() async -> any FinvuSDK.MfaStep)?
   final public let forgotPin: (() async -> any FinvuSDK.MfaStep)?
+  final public let recovery: FinvuSDK.RecoveryInfo?
+  final public let cancel: (() async -> any FinvuSDK.MfaStep)?
+  final public let switchMethod: ((Swift.String) async -> any FinvuSDK.MfaStep)?
+  final public let selectEmail: ((Swift.String) async -> any FinvuSDK.MfaStep)?
   final public func submit(_ value: Swift.String) async -> any FinvuSDK.MfaStep
+  final public func submit(accounts: [FinvuSDK.RecoveryAccountAnswer]) async -> any FinvuSDK.MfaStep
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class MfaSilentStep : FinvuSDK.MfaStep, @unchecked Swift.Sendable {
