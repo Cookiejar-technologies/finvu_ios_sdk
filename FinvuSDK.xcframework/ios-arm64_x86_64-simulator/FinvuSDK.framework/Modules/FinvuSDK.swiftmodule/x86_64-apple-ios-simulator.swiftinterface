@@ -695,6 +695,16 @@ public struct FinvuErrorMessages {
 }
 @_hasMissingDesignatedInitializers final public class FinvuMfaClient {
   public static let shared: FinvuSDK.FinvuMfaClient
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var newUser: Swift.Bool? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var hasLinkedAccounts: Swift.Bool? {
+    get
+  }
+  #endif
   final public func login(_ params: FinvuSDK.LoginParams) async -> any FinvuSDK.MfaStep
   final public func routeResponse(_ message: [Swift.String : Any]) -> [Swift.String : Any]
   @objc deinit
@@ -882,6 +892,8 @@ public struct MfaSession {
   public let sessionId: Swift.String?
   public let csid: Swift.String?
   public let userInfo: [Swift.String : Any]
+  public var newUser: Swift.Bool?
+  public var hasLinkedAccounts: Swift.Bool?
 }
 public struct MfaResult {
   public let status: Swift.String
@@ -910,8 +922,9 @@ public struct LoginParams {
   public var useEncConsent: Swift.Bool
   public var finalizeSession: Swift.Bool?
   public var selectFactorChoice: Swift.Bool
+  public var emailId: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(mobileNumber: Swift.String? = nil, username: Swift.String? = nil, consentHandle: Swift.String? = nil, handleId: Swift.String? = nil, clientContext: [Swift.String : Any]? = nil, supportedFactors: FinvuSDK.SupportedFactors? = nil, useEncConsent: Swift.Bool = true, finalizeSession: Swift.Bool? = nil, selectFactorChoice: Swift.Bool = false)
+  public init(mobileNumber: Swift.String? = nil, username: Swift.String? = nil, consentHandle: Swift.String? = nil, handleId: Swift.String? = nil, clientContext: [Swift.String : Any]? = nil, supportedFactors: FinvuSDK.SupportedFactors? = nil, useEncConsent: Swift.Bool = true, finalizeSession: Swift.Bool? = nil, selectFactorChoice: Swift.Bool = false, emailId: Swift.String? = nil)
   #endif
 }
 public protocol MfaStep : AnyObject, Swift.Sendable {
