@@ -277,7 +277,11 @@ public enum FinvuErrorCode : Swift.Int {
 @objc(FinvuFIPFiTypeIdentifier) @objcMembers final public class FIPFiTypeIdentifier : ObjectiveC.NSObject {
   @objc final public let fiType: Swift.String
   @objc final public let identifiers: [FinvuSDK.TypeIdentifier]
-  @objc public init(fiType: Swift.String, identifiers: [FinvuSDK.TypeIdentifier])
+  @objc final public let allowedCombinations: [[FinvuSDK.TypeIdentifier]]?
+  @objc convenience public init(fiType: Swift.String, identifiers: [FinvuSDK.TypeIdentifier])
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(fiType: Swift.String, identifiers: [FinvuSDK.TypeIdentifier], allowedCombinations: [[FinvuSDK.TypeIdentifier]]?)
+  #endif
   @objc deinit
 }
 @objc(FinvuTypeIdentifier) @objcMembers final public class TypeIdentifier : ObjectiveC.NSObject {

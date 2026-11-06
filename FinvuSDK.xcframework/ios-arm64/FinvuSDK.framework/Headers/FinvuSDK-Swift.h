@@ -536,7 +536,9 @@ SWIFT_CLASS_NAMED("FIPFiTypeIdentifier")
 @interface FinvuFIPFiTypeIdentifier : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull fiType;
 @property (nonatomic, readonly, copy) NSArray<FinvuTypeIdentifier *> * _Nonnull identifiers;
-- (nonnull instancetype)initWithFiType:(NSString * _Nonnull)fiType identifiers:(NSArray<FinvuTypeIdentifier *> * _Nonnull)identifiers OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSArray<NSArray<FinvuTypeIdentifier *> *> * _Nullable allowedCombinations;
+- (nonnull instancetype)initWithFiType:(NSString * _Nonnull)fiType identifiers:(NSArray<FinvuTypeIdentifier *> * _Nonnull)identifiers;
+- (nonnull instancetype)initWithFiType:(NSString * _Nonnull)fiType identifiers:(NSArray<FinvuTypeIdentifier *> * _Nonnull)identifiers allowedCombinations:(NSArray<NSArray<FinvuTypeIdentifier *> *> * _Nullable)allowedCombinations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
